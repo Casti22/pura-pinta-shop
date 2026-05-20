@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pura Pinta Shop | Ropa americana única en Bolivia</title>
+  <meta name="description" content="Pura Pinta Shop: ropa americana, sudaderas vintage, streetwear y piezas únicas. Compra por WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a href="#inicio" class="brand" aria-label="Pura Pinta Shop">
+      <img src="imgs/logo.jpg" alt="Pura Pinta Shop logo" />
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+
+    <nav class="nav-menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#drops">Drops</a>
+      <a href="#productos">Prendas</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <a class="header-cta" href="https://wa.me/59175693673?text=Hola%20Pura%20Pinta%2C%20quiero%20ver%20las%20prendas%20disponibles" target="_blank">WhatsApp</a>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero section-pad">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Ropa americana • Streetwear • Bolivia</span>
+        <h1>Prendas únicas para gente con pura pinta.</h1>
+        <p>Sudaderas seleccionadas una por una, lavadas, planchadas, fotografiadas y listas para salir. Si una prenda te gusta, actúa rápido: no tenemos otra igual.</p>
+        <div class="hero-actions">
+          <a href="#productos" class="btn btn-dark">Ver nuevo drop</a>
+          <a href="https://wa.me/59175693673?text=Hola%20Pura%20Pinta%2C%20quiero%20comprar%20una%20prenda" target="_blank" class="btn btn-outline">Comprar por WhatsApp</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>100%</strong><span>Piezas únicas</span></div>
+          <div><strong>24/7</strong><span>Catálogo online</span></div>
+          <div><strong>1</strong><span>Prenda por modelo</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-card main-card">
+          <img src="imgs/5b.jpg" alt="Modelo usando ropa Pura Pinta" />
+          <div class="floating-label">Nuevo Drop</div>
+        </div>
+        <div class="hero-card side-card">
+          <img src="imgs/11b.jpg" alt="Outfit urbano Pura Pinta" />
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Beneficios Pura Pinta">
+      <div class="marquee-track">
+        <span>PIEZAS ÚNICAS</span><span>NO SE REPITEN</span><span>STREETWEAR</span><span>VINTAGE</span><span>OVERSIZED</span><span>COMPRA POR WHATSAPP</span>
+        <span>PIEZAS ÚNICAS</span><span>NO SE REPITEN</span><span>STREETWEAR</span><span>VINTAGE</span><span>OVERSIZED</span><span>COMPRA POR WHATSAPP</span>
+      </div>
+    </section>
+
+    <section id="drops" class="section-pad drops">
+      <div class="section-title reveal">
+        <span class="eyebrow">Drops limitados</span>
+        <h2>El modelo es simple: si te gusta, se aparta hoy.</h2>
+        <p>Cada drop reúne prendas con estilo real: tallas, colores y diseños diferentes. No competimos por volumen; competimos por actitud.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card reveal"><span>01</span><h3>Curaduría</h3><p>Seleccionamos las mejores prendas de cada fardo.</p></article>
+        <article class="feature-card reveal"><span>02</span><h3>Preparación</h3><p>Lavamos, planchamos y revisamos detalles antes de publicar.</p></article>
+        <article class="feature-card reveal"><span>03</span><h3>Estilo IA</h3><p>Creamos fotos con modelos para visualizar mejor cada outfit.</p></article>
+      </div>
+    </section>
+
+    <section id="productos" class="section-pad products-section">
+      <div class="section-title reveal">
+        <span class="eyebrow">Prendas disponibles</span>
+        <h2>Haz clic en una prenda para ver detalles.</h2>
+        <p>El popup muestra talla, material, estado, precio, código y fotos adicionales. Luego puedes pedirla directo por WhatsApp.</p>
+      </div>
+      <div class="shop-controls reveal" aria-label="Filtros de productos">
+        <label>
+          Categoría
+          <select id="categoryFilter">
+            <option value="all">Todas</option>
+          </select>
+        </label>
+        <label>
+          Color
+          <select id="colorFilter">
+            <option value="all">Todos</option>
+          </select>
+        </label>
+        <label>
+          Talla
+          <select id="sizeFilter">
+            <option value="all">Todas</option>
+          </select>
+        </label>
+        <label>
+          Género
+          <select id="genderFilter">
+            <option value="all">Todos</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+            <option value="Unisex">Unisex</option>
+          </select>
+        </label>
+        <button class="filter-reset" id="resetFilters" type="button">Limpiar filtros</button>
+      </div>
+      <div class="results-bar reveal">
+        <span id="resultsCount">Mostrando prendas disponibles</span>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="pagination" id="pagination" aria-label="Paginación de productos"></div>
+    </section>
+
+    <section id="proceso" class="section-pad process">
+      <div class="process-image reveal"><img src="imgs/29b.jpg" alt="Modelo Pura Pinta en parque" /></div>
+      <div class="process-copy reveal">
+        <span class="eyebrow">Nuestro proceso</span>
+        <h2>De fardo a outfit listo para romper TikTok.</h2>
+        <ul>
+          <li><strong>1.</strong> Compramos fardos de ropa americana.</li>
+          <li><strong>2.</strong> Seleccionamos las prendas con mejor pinta.</li>
+          <li><strong>3.</strong> Lavamos, planchamos y revisamos calidad.</li>
+          <li><strong>4.</strong> Tomamos fotos reales y generamos visuales con IA.</li>
+          <li><strong>5.</strong> Subimos al catálogo y cerramos por WhatsApp.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-pad tiktok-cta reveal">
+      <div>
+        <span class="eyebrow">TikTok first</span>
+        <h2>Los mejores drops salen primero en vivo.</h2>
+        <p>En los Lives mostramos prendas, tallas, material, fit y precio. El primero que pide, se lleva la pieza.</p>
+      </div>
+      <a class="btn btn-dark" href="https://www.tiktok.com/@casti4457" target="_blank">Seguir en TikTok</a>
+    </section>
+
+    <section id="contacto" class="section-pad contact">
+      <div class="contact-card reveal">
+        <span class="eyebrow">Compra rápida</span>
+        <h2>¿Viste algo que te gusta?</h2>
+        <p>Escríbenos por WhatsApp con el código de la prenda. Te confirmamos disponibilidad, forma de pago y entrega.</p>
+        <a class="btn btn-green" href="https://wa.me/59175693673?text=Hola%20Pura%20Pinta%2C%20quiero%20informaci%C3%B3n%20de%20una%20prenda" target="_blank">Escribir al WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="imgs/logo.jpg" alt="Pura Pinta Shop" />
+    <p>Streetwear vintage, ropa americana y prendas únicas.</p>
+    <small>© 2026 Pura Pinta Shop. Todos los derechos reservados.</small>
+  </footer>
+
+  <div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" data-close aria-label="Cerrar popup">×</button>
+      <div class="modal-gallery">
+        <img id="modalMainImage" src="" alt="" />
+        <div class="thumbs" id="modalThumbs"></div>
+      </div>
+      <div class="modal-info">
+        <span class="product-code" id="modalCode"></span>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+        <div class="info-list" id="modalInfoList"></div>
+        <div class="modal-price" id="modalPrice"></div>
+        <a id="modalWhatsapp" class="btn btn-green" target="_blank">Pedir por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
