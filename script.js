@@ -102,18 +102,23 @@ const products = [
     code: 'PP-033', name: 'Polerón Elle Street Plomo', price: 'Bs. 70', size: 'L', category: 'Sudadera', color: 'Verde', gender: 'Mujer', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Moda, y estilo con mucho flow 🤍🦌', images: ['imgs/82b.jpg', 'imgs/82.jpg', 'imgs/83.jpg']
   },
   {
-    code: 'PP-034', name: ' Sudadera light Deer Soul Blanco', price: 'Bs. 70', size: 'S', category: 'Poleron', color: 'Blanco', gender: 'Mujer', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Conexión con la naturaleza… pero con estilo 🤍🦌', images: ['imgs/84b.jpg', 'imgs/84.jpg', 'imgs/85.jpg']
+    code: 'PP-034', name: 'Sudadera light Deer Soul Blanco', price: 'Bs. 70', size: 'M', category: 'Sudadera', color: 'Blanco', gender: 'Mujer', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Conexión con la naturaleza… pero con estilo 🤍🦌', images: ['imgs/80b.jpg', 'imgs/80.jpg', 'imgs/81.jpg']
   },
   {
-    code: 'PP-035', name: 'Poleron Negro Modo Performance', price: 'Bs. 70', size: 'M', category: 'Poleron', color: 'Negro', gender: 'Unisex', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Oversized', tag: 'Básica', description: 'Hecho para moverte… y destacar 💪🔥', images: ['imgs/88b.jpg', 'imgs/88.jpg', 'imgs/89.jpg']
+    code: 'PP-035', name: 'Sudadera Negra Modo Performance', price: 'Bs. 70', size: 'L', category: 'Sudadera', color: 'Negra', gender: 'Unisex', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Oversized', tag: 'Básica', description: 'Deportivo… pero con estilo 😎', images: ['imgs/88b.jpg', 'imgs/88.jpg', 'imgs/89.jpg']
   },
   {
-    code: 'PP-036', name: 'Poleron K-Force', price: 'Bs. 70', size: 'M', category: 'Poleron', color: 'Azul', gender: 'Hombre', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Sport', description: 'Hecho para moverte… y destacar con ese toque militar 💪🔥', images: ['imgs/92b.jpg', 'imgs/92.jpg', 'imgs/93.jpg']
+    code: 'PP-036', name: 'Polerón K-Force', price: 'Bs. 70', size: 'M', category: 'Poleron', color: 'Negro', gender: 'Hombre', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Hecho para moverte… y destacar con ese toque militar 💪🔥', images: ['imgs/92b.jpg', 'imgs/92.jpg', 'imgs/93.jpg']
   },
-    {
-    code: 'PP-037', name: 'Sudadera Floreada', price: 'Bs. 65', size: 'S', category: 'Poleron', color: 'Verde', gender: 'Mujer', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Básica', description: 'Ideal para actividades al aire libre con un toque floreado y moderno.', images: ['imgs/94b.jpg', 'imgs/94.jpg', 'imgs/95.jpg']
+  {
+    code: 'PP-036', name: 'Polerón K-Force', price: 'Bs. 70', size: 'M', category: 'Poleron', color: 'Negro', gender: 'Hombre', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Hecho para moverte… y destacar con ese toque militar 💪🔥', images: ['imgs/92b.jpg', 'imgs/92.jpg', 'imgs/93.jpg']
+  },
+  {
+    code: 'PP-037', name: 'Sudadera Floreada', price: 'Bs. 70', size: 'M', category: 'Sudadera', color: 'Verde', gender: 'Mujer', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Ideal para actividades al aire libre con un toque floreado y moderno.', images: ['imgs/94b.jpg', 'imgs/94.jpg', 'imgs/95.jpg']
+  },
+  {
+    code: 'PP-038', name: 'Poleron Supreme Vintage', price: 'Bs. 70', size: 'M', category: 'Poleron', color: 'Negro', gender: 'Hombre', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Hecho para moverte… y realizar actividades al aire libre con flow urbano 😎', images: ['imgs/96b.jpg', 'imgs/96.jpg', 'imgs/97.jpg']
   }
-
 ];
 
 let currentPage = 1;
