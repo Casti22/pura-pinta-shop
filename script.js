@@ -106,18 +106,43 @@ const products = [
   },
   {
     code: 'PP-035', name: 'Sudadera Negra Modo Performance', price: 'Bs. 70', size: 'L', category: 'Sudadera', color: 'Negra', gender: 'Unisex', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Oversized', tag: 'Básica', description: 'Deportivo… pero con estilo 😎', images: ['imgs/88b.jpg', 'imgs/88.jpg', 'imgs/89.jpg']
-  },
+        },
   {
     code: 'PP-036', name: 'Polerón K-Force', price: 'Bs. 70', size: 'M', category: 'Poleron', color: 'Negro', gender: 'Hombre', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Hecho para moverte… y destacar con ese toque militar 💪🔥', images: ['imgs/92b.jpg', 'imgs/92.jpg', 'imgs/93.jpg']
-  },
-  {
-    code: 'PP-036', name: 'Polerón K-Force', price: 'Bs. 70', size: 'M', category: 'Poleron', color: 'Negro', gender: 'Hombre', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Hecho para moverte… y destacar con ese toque militar 💪🔥', images: ['imgs/92b.jpg', 'imgs/92.jpg', 'imgs/93.jpg']
-  },
+      },
   {
     code: 'PP-037', name: 'Sudadera Floreada', price: 'Bs. 70', size: 'M', category: 'Sudadera', color: 'Verde', gender: 'Mujer', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Ideal para actividades al aire libre con un toque floreado y moderno.', images: ['imgs/94b.jpg', 'imgs/94.jpg', 'imgs/95.jpg']
   },
   {
     code: 'PP-038', name: 'Poleron Supreme Vintage', price: 'Bs. 70', size: 'M', category: 'Poleron', color: 'Negro', gender: 'Hombre', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Hecho para moverte… y realizar actividades al aire libre con flow urbano 😎', images: ['imgs/96b.jpg', 'imgs/96.jpg', 'imgs/97.jpg']
+  }
+  ,
+  {
+    code: 'PP-039', name: 'Sudadera Melrose Jigger 53 Negro Cool Neon', price: 'Bs. 65', size: 'M', category: 'Sudadera', color: 'Negro', gender: 'Mujer', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Ideal para actividades al aire libre con un toque verde neon que le da estilo urbano.', images: ['imgs/98b.jpg', 'imgs/98.jpg', 'imgs/99.jpg']
+  },
+  {
+    code: 'PP-040', name: 'Sudadera Mr. Men Little Miss Verde', price: 'Bs. 70', size: 'M', category: 'Sudadera', color: 'Verde', gender: 'Hombre', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Muy bueno para actividades al aire libre. Today is a Bumpy Day!', images: ['imgs/104b.jpg', 'imgs/104.jpg', 'imgs/105.jpg']
+  },
+  {
+    code: 'PP-041', name: 'Swing Pink Crewneck', price: 'Bs. 65', size: 'M', category: 'Sudadera', color: 'Rosa', gender: 'Mujer', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'El balance perfecto entre comfy y aesthetic.Su color rosa pastel + cuello tortuga la hacen ideal para crear outfits suaves, modernos y con mucha personalidad. ✨', images: ['imgs/106b.jpg', 'imgs/106.jpg', 'imgs/107.jpg']
+  },
+  {
+    code: 'PP-042', name: 'Top 10 Basic Crew – Black Edition', price: 'Bs. 65', size: 'M', category: 'Sudadera', color: 'Negro', gender: 'Unisex', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Sudadera básica negra estilo regular fit, cómoda y versátil para cualquier outfit urbano. Ideal para combinar con jeans, cargos o sneakers y lograr un look streetwear limpio y moderno. 🔥', images: ['imgs/108b.jpg', 'imgs/108.jpg', 'imgs/109.jpg']
+  },
+  {
+    code: 'PP-043', name: 'Vivastudio Lime Oversized Crew – XL', price: 'Bs. 65', size: 'XL', category: 'Sudadera', color: 'Verde Limón', gender: 'Unisex', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Oversized', tag: 'Vintage', description: 'Sudadera oversized color verde limón con estilo streetwear moderno y vibra urbana auténtica. Su fit amplio brinda comodidad total y un look relajado perfecto para outfits modernos y llamativos. 🔥', images: ['imgs/110b.jpg', 'imgs/110.jpg', 'imgs/111.jpg']
+  },
+  {
+    code: 'PP-044', name: 'Grooverhyme Midnight Crew – Black Edition', price: 'Bs. 65', size: 'L', category: 'Sudadera', color: 'Negro', gender: 'Unisex', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Vintage', description: 'Sudadera negra estilo urbano con diseño minimalista y fit cómodo. La Grooverhyme Midnight Crew combina perfecto con outfits streetwear gracias a su look limpio, moderno y versátil. 🔥', images: ['imgs/112b.jpg', 'imgs/112.jpg', 'imgs/113.jpg']
+  },
+  {
+    code: 'PP-045', name: 'Ralph RL-67 Heritage Crew – Grey Edition', price: 'Bs. 65', size: 'M', category: 'Sudadera', color: 'Plomo', gender: 'Unisex', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Sport', tag: 'Cómodo', description: 'Sudadera ploma estilo vintage urbano con detalles clásicos y coderas cafés que le dan un look auténtico y elegante. La RL-67 Heritage Crew combina comodidad y estilo street casual en una prenda perfecta para outfits modernos y relajados. 🔥', images: ['imgs/114b.jpg', 'imgs/114.jpg', 'imgs/115.jpg']
+  },
+  {
+    code: 'PP-046', name: 'Indigo Bank “Enjoy The Vibe” Crew – Pink Edition', price: 'Bs. 65', size: 'L', category: 'Sudadera', color: 'Rosa', gender: 'Mujer', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Sport', tag: 'Cómodo', description: 'Sudadera rosa estilo regular fit con estética urbana suave y detalles gráficos inspirados en creatividad, arte y vibra positiva. Su diseño minimal al frente y el estampado statement en la espalda la convierten en una pieza perfecta para outfits casuales, aesthetic y streetwear moderno. ✨', images: ['imgs/116b.jpg', 'imgs/116.jpg', 'imgs/117.jpg']
+  },
+  {
+    code: 'PP-047', name: 'Paul Frank “Julius” Urban Crew – Grey Edition', price: 'Bs. 65', size: 'S', category: 'Sudadera', color: 'Rosa', gender: 'Mujer', material: 'Algodón mixto', condition: 'Muy buen estado', fit: 'Regular', tag: 'Juevenil', description: 'Sudadera ploma estilo regular fit con diseño clásico de Paul Frank y el icónico Julius bordado al frente. Una pieza urbana, cómoda y fácil de combinar, perfecta para outfits casuales con un toque vintage y streetwear juvenil. 🔥', images: ['imgs/118b.jpg', 'imgs/118.jpg', 'imgs/119.jpg']
   }
 ];
 
